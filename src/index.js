@@ -24,7 +24,7 @@
 
 import express from 'express';
 const app = express();
-app.use(express.json) // Hàm gọi middleware (Hàm gọi middleware chuyển đổi cấu trúc json để backend nhận được )
+app.use(express.json()) // Hàm gọi middleware (Hàm gọi middleware chuyển đổi cấu trúc json để backend nhận được )
 import cors from 'cors'
 app.use(cors({
     origin:"*"

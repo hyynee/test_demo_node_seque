@@ -15,3 +15,6 @@ export {getFood,findFood}
 
 
 // dịnh nghĩa các chức năng của đối tượng
+
+// yarn add mysql2
+// yarn add sequelize
